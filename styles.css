@@ -34,6 +34,8 @@ button {
 button:hover {
     animation: pulse 1.25s infinite;
     /*pulsating animation on hover */
+    background-color: #ebe8e1;
+    color: black;
 }
 
 a {
@@ -53,7 +55,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 0;
+    top: 10px;
     z-index: 100;
 }
 
@@ -117,6 +119,7 @@ a:hover {
     text-align: center;
     padding-top: 7rem;
     color: black;
+    margin-top: 4rem;
 }
 
 .pill {
@@ -132,11 +135,10 @@ a:hover {
 
 .episode-name {
     max-width: 80%;
-    margin: 0 auto;
+    margin: 2rem auto;
     text-align: center;
     font-size: 8.25rem;
     font-weight: 500;
-    word-wrap: break-word;
 }
 
 .episode-image-container {
@@ -172,7 +174,7 @@ a:hover {
 }
 
 .spotify {
-    background-color: rgb(72, 179, 72);
+    background-color: #48b348;
     color: white;
 }
 
@@ -186,9 +188,35 @@ a:hover {
     color: white;
 }
 
+/* follow us section */
+.follow {
+    color: white;
+    font-size: 10rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.socials-container {
+    max-width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    
+}
+.socials {
+    width: 100%;
+    height: 60vh;
+    border-radius: 100vh;
+    color: white;
+}
+
+.socials:hover {
+    background-color: white!important;
+}
 
 /* media query */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .name {
         font-size: 6rem;
     }
@@ -207,11 +235,18 @@ a:hover {
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
-
+    .episode-name {
+        font-size: 4rem;
+        font-weight: 300;
+    }
     .round {
         height: 6rem;
         width: 6rem;
         padding: 20px;
+    }
+    .socials-container {
+        grid-template-columns: 1fr 1fr;
+      
     }
 
 }
