@@ -1,9 +1,10 @@
 * {
     font-family: 'VT323', monospace;
     cursor: pointer;
+}
+body{
     background-color: #ebe8e1;
 }
-
 button {
     padding: 10px 20px;
     border-radius: 20px;
@@ -42,14 +43,13 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(255, 228, 196, 0);
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
 .icon-container {
-    background: transparent;
+
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -57,7 +57,6 @@ a:hover{
 
 .icon {
     height: 1rem;
-    background: transparent;
 }
 
 /* banner styles--------------------------------------------------------------- */
@@ -72,10 +71,16 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .video {
-    width: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.video img{
+    width: 70%;
 }
 
 .description{
