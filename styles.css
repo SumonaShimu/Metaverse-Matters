@@ -49,6 +49,7 @@ a:hover {
     width: 90%;
     margin: 5rem auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     position: sticky;
@@ -103,13 +104,15 @@ a:hover {
 /* episodes styles */
 #episodes {
     color: white;
+    max-width: 100%;
 }
 
 .episode-number {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    font-size: 16rem;
+    font-size: 250px;
     text-align: center;
     padding-top: 7rem;
     color: black;
@@ -122,7 +125,6 @@ a:hover {
 }
 
 .round {
-    padding: 20px;
     height: 16rem;
     width: 16rem;
     background-color: #f1d404;
@@ -130,11 +132,12 @@ a:hover {
 }
 
 .episode-name {
-    max-width: 100%;
-    padding: 0 50px;
+    max-width: 80%;
+    margin: 0 auto;
     text-align: center;
-    font-size: 8.5rem;
+    font-size: 8.25rem;
     font-weight: 500;
+    word-wrap: break-word;
 }
 
 .episode-image-container {
@@ -173,6 +176,7 @@ a:hover {
     background-color: rgb(72, 179, 72);
     color: white;
 }
+
 .youtube {
     background-color: #E93526;
     color: white;
@@ -181,4 +185,33 @@ a:hover {
 .transcript {
     background-color: rgb(66, 150, 254);
     color: white;
+}
+
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    .nav-item {
+        width: max-content;
+    }
+
+    .episode-description-container {
+        grid-template-columns: 1fr;
+    }
+
+    .episode-number {
+        font-size: 6rem;
+        text-align: center;
+        padding-top: 5rem;
+    }
+
+    .round {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .name {
+        font-size: 6rem;
+    }
+
+
 }
