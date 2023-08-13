@@ -103,8 +103,9 @@ a:hover {
 
 /* episodes styles */
 #episodes {
+    max-width: 80%;
+    margin: 2rem auto;
     color: white;
-    max-width: 100%;
 }
 
 .episode-number {
@@ -119,7 +120,6 @@ a:hover {
 }
 
 .pill {
-    background-color: #f1d404;
     padding: 20px 50px;
     border-radius: 30rem;
 }
@@ -127,7 +127,6 @@ a:hover {
 .round {
     height: 16rem;
     width: 16rem;
-    background-color: #f1d404;
     border-radius: 50%;
 }
 
@@ -183,13 +182,17 @@ a:hover {
 }
 
 .transcript {
-    background-color: rgb(66, 150, 254);
+    background-color: #4296fe;
     color: white;
 }
 
 
 /* media query */
 @media only screen and (max-width: 600px) {
+    .name {
+        font-size: 6rem;
+    }
+
     .nav-item {
         width: max-content;
     }
@@ -202,16 +205,13 @@ a:hover {
         font-size: 6rem;
         text-align: center;
         padding-top: 5rem;
+        padding-bottom: 5rem;
     }
 
     .round {
         height: 6rem;
         width: 6rem;
+        padding: 20px;
     }
-
-    .name {
-        font-size: 6rem;
-    }
-
 
 }
