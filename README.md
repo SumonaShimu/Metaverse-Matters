@@ -1,7 +1,5 @@
-# Welcome to Metaverse-Matters
-
-## Frontend Development
-In this project, we focused on creating the frontend using fundamental web technologies such as HTML and CSS. Our goal was to craft a visually engaging and user-friendly interface for the Metaverse-Matters project.
+# Metaverse-Matters
+Welcome to the project Metaverse-Matters! This endeavor involves the recreation of the frontend of the Fucking Metaverse- Podcast's website,
 
 ## Technologies Used
   - HTML
