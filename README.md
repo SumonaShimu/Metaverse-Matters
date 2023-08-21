@@ -1,5 +1,5 @@
 # Metaverse-Matters
-Welcome to the project Metaverse-Matters! This endeavor involves the recreation of the frontend of the Fucking Metaverse- Podcast's website,
+Welcome to the project Metaverse-Matters! This endeavor involves the recreation of the frontend of the Fucking Metaverse- Podcast's official website
 
 ## Technologies Used
   - HTML
